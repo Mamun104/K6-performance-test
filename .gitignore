@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / config files (sensitive)
+.env
+user.json
+
+# K6 reports & artifacts
+reports/
+report/
+results.json
+summary.json
+playwright-report/
+videos/
+screenshots/
+
+
+# IDE / Editor files
+.vscode/
+*.code-workspace
+
+# Optional: npm debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

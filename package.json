@@ -1,0 +1,32 @@
+{
+  "name": "k6-project",
+  "version": "1.0.0",
+  "main": "user-test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "k6-html-reporter": "^1.0.5"
+  },
+  "dependencies": {
+    "async": "^3.2.6",
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^2.0.2",
+    "ejs": "^3.1.10",
+    "filelist": "^1.0.4",
+    "jake": "^10.9.4",
+    "minimatch": "^5.1.6",
+    "picocolors": "^1.1.1"
+  },
+  "description": ""
+}
+
+{
+  "scripts": {
+    "test:report": ".\\node_modules\\.bin\\k6-html-reporter --input results.json --output report.html"
+  }
+}
+
