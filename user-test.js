@@ -20,7 +20,7 @@ export default function () {
 
     check(res, {
         'status is 200': (r) => r.status === 200,
-        'has role': (r) => body.role === 'Admin', // adjust if API returns token differently
+        'has role': (r) => body.role === 'Admin',
     });
 
     sleep(1);
