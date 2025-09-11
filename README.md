@@ -104,6 +104,13 @@ k6 run --out json=results.json user-test.js && npx k6-html-reporter --input resu
 
 ---
 
+## Output Result
+
+<img width="1872" height="923" alt="image" src="https://github.com/user-attachments/assets/df44a27a-8d38-4a18-8d8c-ee696ad25a5c" />
+<img width="1864" height="949" alt="image" src="https://github.com/user-attachments/assets/f80c9789-3abf-4171-bb75-9192f468e69d" />
+
+---
+
 ## Notes
 
 * Update the paths in commands if you change the folder structure.
