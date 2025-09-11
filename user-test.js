@@ -4,6 +4,7 @@ import { options, BASE_URL } from './config/options.js';
 import { loginPayload } from './data/payloads.js';
 import { headers } from './utils/headers.js';
 
+export { handleSummary } from './reportHandler.js';
 export { options };
 
 export default function () {

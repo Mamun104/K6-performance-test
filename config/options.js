@@ -1,6 +1,6 @@
 export const options = {
-    vus: 1,          // number of virtual users
-    duration: '1s', // test duration
+    vus: 1,          
+    duration: '1s', 
 };
 
 export const BASE_URL = 'http://dmoney.roadtocareer.net';
