@@ -1,4 +1,4 @@
 export const loginPayload = JSON.stringify({
-    email: "test@test.com",
+    email: "salman@roadtocareer.net",
     password: "1234"
 });

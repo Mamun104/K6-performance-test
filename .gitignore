@@ -10,7 +10,6 @@ logs
 Thumbs.db
 
 # Environment / config files (sensitive)
-.env
 user.json
 
 # K6 reports & artifacts
